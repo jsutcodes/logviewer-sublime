@@ -1,0 +1,43 @@
+{
+    "variables":
+    {
+        "yellow": "hsl(54, 100%, 50%)",
+    },
+    "globals":
+    {
+        "background": "hsl(70, 0%, 15%)",
+    },
+    "rules":
+    [
+        {
+            "name": "Log jettyserver",
+            "scope": "source.log custom.jettyserver.log",
+            "foreground": "#BFD641"
+        },
+        {
+            "name": "Log hprsmain",
+            "scope": "source.log custom.hprsmain.log",
+            "foreground": "#FE840E"
+        },
+        {
+            "name": "Log hprsexectionmanager",
+            "scope": "source.log custom.hprsexectionmanager.log",
+            "foreground": "#FF6F61"
+        },
+                {
+            "name": "Log integrationrunner",
+            "scope": "source.log custom.integrationrunner.log",
+            "foreground": "#C62168"
+        },
+        {
+            "name": "Log CLIInterpreter",
+            "scope": "source.log custom.cliinterpreter.log",
+            "foreground": "#755139"
+        },
+        {
+            "name": "Log destacontroller",
+            "scope": "source.log custom.destacontroller.log",
+            "foreground": "#616247"
+        }
+    ]
+}
